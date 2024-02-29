@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <div class="navbar">
+            <div class="logo-container">
+                <img src="revou.png" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#profile">Our Profile</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#message us">Message Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <hr>
+
+        <!-- Header Section -->
+        <header>
+            <h1>Hi, Welcome To Website</h1>
+            <p>Ini adalah website pertamaku</p>
+        </header>
+
+        <section id="profile">
+            <h3>Profile</h3>
+            <section class="TextProfile">
+                <p>Selamat datang di Ngapak Company, tempat di mana inovasi bertemu dengan dedikasi untuk memberikan solusi terbaik bagi Anda. Kami adalah perusahaan yang didedikasikan untuk 
+                    memberikan pelayanan unggul dan produk berkualitas tinggi kepada pelanggan kami. Tentang Kami Ngapak Company memiliki reputasi yang solid dalam industri, didukung oleh 
+                    tim profesional yang berkomitmen untuk keunggulan. Kami memiliki pengalaman bertahun-tahun dalam Teknologi dan telah membangun hubungan yang kuat dengan pelanggan 
+                    dan mitra bisnis kami. Nilai Kami Kualitas Terbaik: Kami berkomitmen untuk memberikan produk dan layanan terbaik dengan standar kualitas tertinggi. Inovasi: Kami selalu mencari 
+                    cara baru untuk meningkatkan dan menyempurnakan apa yang kami tawarkan, selaras dengan perkembangan terkini di industri. Pelayanan Pelanggan: Pelanggan adalah prioritas utama kami. 
+                    Tim pelayanan pelanggan kami siap membantu Anda dengan segala pertanyaan dan kebutuhan.</p>
+            </section>
+    
+            <section class="imgProfile">
+                <img src="gambar/ca.jpg" alt="coffeShop">
+            </section>
+        </section>
+
+    <!-- Headquarters Section -->
+   <section id="about">
+        <h2>Visi & Misi</h2>
+        <div class="responsive">
+            <div class="gallery">
+                <img src="gambar/c1.jpg" alt="Cinque Terre">
+              <div class="desc">Inovasi yang Berkelanjutan</div>
+            </div>
+          </div>
+          
+          <div class="responsive">
+            <div class="gallery">
+                <img src="gambar/c2.jpg" alt="Forest">
+              <div class="desc">Memberikan Produk dan Layanan Berkualitas Tinggi</div>
+            </div>
+          </div>
+          
+          <div class="responsive">
+            <div class="gallery">
+                <img src="gambar/c3.jpg" alt="Northern Lights">
+              <div class="desc">Pemberdayaan Tenaga Kerja</div>
+            </div>
+          </div>    
+
+          <div class="responsive">
+            <div class="gallery">
+                <img src="gambar/c4.jpg" alt="Northern Lights">
+              <div class="desc">Kepuasan Pelanggan Sebagai Prioritas Utama</div>
+            </div>
+          </div>    
+    </section>
+    <hr>
+
+    <!-- Message Section -->
+    <section class="p-10">
+        <h2>Message Us</h2>
+        <form action="#" method="POST" id="contact-form">
+            <input type="text" placeholder="Name" class="border p-2 m-2" name="name" required>
+            <input type="email" placeholder="example@mail.com" class="border p-2 m-2" name="email" required>
+            <input type="tel" placeholder="Phone" class="border p-2 m-2" name="phone" required>
+            <textarea placeholder="Message" class="border p-2 m-2" name="message" required></textarea>
+            <div class="flex justify-center space-x-4">
+                <button type="reset" class="border p-2">Reset</button>
+                <button type="submit" class="border p-2 bg-blue-500 text-white">Submit</button>
+            </div>
+        </form>
+    </section>
+    <br><br>
+    <hr>
+
+    <!-- Footer Section -->
+    <footer>
+        <br>
+        Created by Galuh
+    </footer>
+
+    <!-- Custom Scripts -->
+    <script src="scripts.js"></script>
+</body>
+</html>
